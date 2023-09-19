@@ -18,7 +18,7 @@ Ensure you have the following software installed on your machine:
 1. Clone the repository:
 
 ```bash
-git clone [repository-url]
+git clone git@github.com:javiisebas/almedia-challenge.git
 ```
 
 2. Change into the project directory:
