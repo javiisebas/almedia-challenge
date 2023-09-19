@@ -1,0 +1,21 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "trace": true,
+            "name": "Debug Almedia Challenge",
+            "type": "node",
+            "request": "attach",
+            "port": 9229,
+            "address": "127.0.0.1",
+            "restart": true,
+            "localRoot": "${workspaceFolder}",
+            "remoteRoot": "${workspaceFolder}",
+            "skipFiles": ["<node_internals>/**"],
+            "cwd": "${workspaceRoot}/src/",
+            "sourceMaps": true,
+            "envFile": "${workspaceFolder}/src/.env",
+            "autoAttachChildProcesses": true
+        }
+    ]
+}
